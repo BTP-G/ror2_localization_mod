@@ -14,7 +14,6 @@ namespace ExamplePlugin {
             AddTokens();
         }
         private void AddTokens() {
-            //LanguageAPI.Add("COF_REDMIST_BODY_NAME", "红雾");
             //LanguageAPI.Add("AbyssalMedkit", "阿比斯弹夹");
         }
     }
