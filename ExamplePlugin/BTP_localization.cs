@@ -2,10 +2,10 @@
 using R2API;
 using R2API.Utils;
 
-namespace ExamplePlugin {
+namespace BTP_localization {
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     [R2APISubmoduleDependency(nameof(LanguageAPI))]
-    public class ExamplePlugin : BaseUnityPlugin {
+    public class BTP_localization : BaseUnityPlugin {
         public const string PluginGUID = PluginAuthor + "." + PluginName;
         public const string PluginAuthor = "BTP";
         public const string PluginName = "BTP_localization";
